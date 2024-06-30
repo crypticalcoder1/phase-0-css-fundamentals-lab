@@ -3,3 +3,84 @@ body {
   height: 100%;
   margin: 0;
 }
+.h1{
+  color: red;
+  text-align: center;
+}
+.Photo {
+display: block; 
+  margin: 0 auto; 
+}
+.a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.caption {
+  font-size: 14px;
+  text-align: center;
+}
+#featured-property {
+  text-align: center; /* Center aligns all content within the section */
+  margin-top: 20px; /* Adds some top margin for vertical spacing */
+}
+
+#featured-property p {
+  width: 800px; /* Sets a fixed width for paragraphs */
+  margin: 20px auto; /* Centers the paragraphs horizontally and adds vertical spacing */
+  text-align: left; /* Resets text alignment to left within paragraphs */
+}
+#details {
+  overflow: hidden; /* Clearfix to contain floats */
+}
+
+#details div {
+  float: left; /* Float each div to the left */
+  width: 25%; /* Adjust the width as per your design */
+  padding: 0 20px; /* Add padding for spacing between divs */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+#details h3 {
+  font-size: 18px; /* Example font size */
+}
+
+#details p {
+  font-size: 14px; /* Example font size */
+  line-height: 1.6; /* Example line height */
+  margin-bottom: 10px; /* Example margin bottom */
+}footer {
+  background-color: #f2f2f2; /* Set background color for the footer */
+  text-align: center; /* Center aligns text within the footer */
+  padding: 20px 0; /* Adds padding to the top and bottom of the footer */
+}
+
+footer div {
+  width: 25%; /* Each div occupies 25% of the width */
+  display: inline-block; /* Display divs as inline-block to occupy equal widths */
+  vertical-align: top; /* Aligns divs at the top */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 20px; /* Adds padding inside each div */
+}
+
+footer h3 {
+  font-size: 18px; /* Example font size for headings */
+  margin-bottom: 10px; /* Adds bottom margin below headings */
+}
+
+footer p {
+  font-size: 14px; /* Example font size for paragraphs */
+  line-height: 1.6; /* Example line height */
+  margin-bottom: 0; /* Removes bottom margin from paragraphs */
+}
+
+footer a {
+  color: #333; /* Sets link color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Adds underline on hover for links */
+}
+
+
+
